@@ -68,5 +68,5 @@ router.use((req, res, next) => {
 
 // listen for requests
 httpServer.listen(config.server.port, () => {
-    logging.info(`The Server is running at ${config.server.host}:${config.server.port} ... `);
+    logging.info(`🦗The Server is running at ${config.server.host}:${config.server.port} ... `);
 });
